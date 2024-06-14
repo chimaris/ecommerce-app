@@ -7,7 +7,7 @@ import colors from "../config/colors";
 
 function ListingDetailsScreen(props) {
 	return (
-		<View>
+		<View style={{ width: "100%" }}>
 			<Image style={styles.image} source={require("../assets/jacket.jpg")} />
 			<View style={styles.detailsContainer}>
 				<AppText style={styles.title}>Red jacket for sale</AppText>
