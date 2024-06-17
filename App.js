@@ -8,8 +8,7 @@ import ListingDetailsScreen from "./screens/ListingDetailsScreen";
 import Card from "./components/Card";
 import AccountScreen from "./screens/AccountScreen";
 import ListingsScreen from "./screens/ListingsScreen";
-import AppTextInput from "./components/AppTextInput";
-import AppPicker from "./components/AppPicker";
+import RegisterScreen from "./screens/RegisterScreen";
 
 const categories = [
 	{ label: "Furniture", value: 1 },
@@ -18,13 +17,10 @@ const categories = [
 ];
 export default function App() {
 	return (
-		// <ListingDetailsScreen />
-		// <ViewImageScreen />
-		// <ListingsScreen />
-		<View>
-			<AppTextInput placeholder="Input Name" />
-			<AppPicker items={categories} icon="apps" placeholder="Category" />
-		</View>
+		//<ListingsScreen />
+		<MessagesScreen />
+		// <ListingEditScreen />
+
 		// <View style={{ flexDirection: "column", alignItems: "center", width: "100%", marginTop: 40, paddingHorizontal: 20 }}>
 		// 	<Card title="Red Jacket for sale" subTitle="$100" image={require("./assets/jacket.jpg")} />
 		// </View>
